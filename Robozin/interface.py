@@ -18,10 +18,10 @@ botao_login.grid(column=1, row=1)
 
 # Linha 2 é deixada em branco, pulando-a
 
-botao_1301 = tk.Button(janela, text="teste 1301", command=qrs.z4fm1301_conf)
+botao_1301 = tk.Button(janela, text="1301", command=qrs.z4fm1301_conf)
 botao_1301.grid(column=0, row=3)
 
-botao_2301 = tk.Button(janela, text="teste 1301", command=qrs.z4fm2301_conf)
+botao_2301 = tk.Button(janela, text="2301", command=qrs.z4fm2301_conf)
 botao_2301.grid(column=2, row=3)
 
 janela.mainloop()
